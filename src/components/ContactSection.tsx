@@ -36,10 +36,10 @@ export const ContactSection = () => {
     <section id="contact" className="py-20 bg-background">
       <div className="section-container">
         <div className="text-center mb-16 animate-slide-up">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
             Parlons de votre projet
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Besoin d'un conseil, d'un devis ou d'une étude personnalisée ? Contactez-nous !
           </p>
         </div>
@@ -48,7 +48,7 @@ export const ContactSection = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="bg-primary text-primary-foreground rounded-2xl p-8">
-              <h3 className="font-display text-2xl font-bold mb-6">
+              <h3 className="font-display text-3xl font-bold mb-6">
                 Nos coordonnées
               </h3>
               
@@ -58,8 +58,8 @@ export const ContactSection = () => {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-sm opacity-80">Téléphone</p>
-                    <p className="font-semibold text-lg">03.76.33.03.82</p>
+                    <p className="text-base opacity-80">Téléphone</p>
+                    <p className="font-semibold text-xl">03.76.33.03.82</p>
                   </div>
                 </a>
                 
@@ -68,8 +68,8 @@ export const ContactSection = () => {
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-sm opacity-80">Email général</p>
-                    <p className="font-semibold">gestion@meilleurs-mutuelles-sante.fr</p>
+                    <p className="text-base opacity-80">Email général</p>
+                    <p className="font-semibold text-lg">gestion@meilleurs-mutuelles-sante.fr</p>
                   </div>
                 </a>
                 
@@ -78,25 +78,25 @@ export const ContactSection = () => {
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-sm opacity-80">Adresse</p>
-                    <p className="font-semibold">France métropolitaine & DOM-TOM</p>
+                    <p className="text-base opacity-80">Adresse</p>
+                    <p className="font-semibold text-lg">France métropolitaine & DOM-TOM</p>
                   </div>
                 </div>
               </div>
               
               <div className="mt-8 pt-6 border-t border-primary-foreground/20">
-                <p className="text-sm opacity-80 mb-2">Autres contacts :</p>
-                <p className="text-sm">conformité-dossier@meilleurs-mutuelles-sante.fr</p>
-                <p className="text-sm">conformité1-dossier@meilleurs-mutuelles-sante.fr</p>
+                <p className="text-base opacity-80 mb-2">Autres contacts :</p>
+                <p className="text-base">conformité-dossier@meilleurs-mutuelles-sante.fr</p>
+                <p className="text-base">conformité1-dossier@meilleurs-mutuelles-sante.fr</p>
               </div>
             </div>
             
             <div className="bg-card rounded-2xl p-6 border border-border/50 shadow-sm">
               <div className="flex items-center gap-3 mb-4">
                 <CheckCircle className="w-6 h-6 text-success" />
-                <h4 className="font-semibold text-foreground">Réponse rapide garantie</h4>
+                <h4 className="font-semibold text-foreground text-lg">Réponse rapide garantie</h4>
               </div>
-              <ul className="space-y-2 text-sm text-muted-foreground">
+              <ul className="space-y-2 text-base text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-primary rounded-full" />
                   Étude gratuite et sans engagement
@@ -115,7 +115,7 @@ export const ContactSection = () => {
           
           {/* Contact Form */}
           <form onSubmit={handleSubmit} className="bg-card rounded-2xl p-8 shadow-sm border border-border/50">
-            <h3 className="font-display text-xl font-bold text-foreground mb-6">
+            <h3 className="font-display text-2xl font-bold text-foreground mb-6">
               Demandez votre devis gratuit
             </h3>
             

@@ -20,14 +20,14 @@ export const Hero = () => {
           <div className="text-center lg:text-left animate-slide-up">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary rounded-full px-4 py-2 mb-6">
               <Shield className="w-5 h-5" />
-              <span className="text-sm font-semibold">Votre courtier en assurances</span>
+              <span className="text-base font-semibold">Votre courtier en assurances</span>
             </div>
             
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+            <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
               Protéger votre <span className="gradient-text">santé</span> et votre <span className="gradient-text">budget</span>
             </h1>
             
-            <p className="text-lg text-muted-foreground mb-8 max-w-xl">
+            <p className="text-xl text-muted-foreground mb-8 max-w-xl">
               Bienvenue sur notre plateforme dédiée à la protection des particuliers, professionnels et indépendants. 
               Nous vous accompagnons dans le choix de solutions d'assurance adaptées à votre situation, à votre budget et à vos besoins réels.
             </p>
@@ -45,7 +45,7 @@ export const Hero = () => {
                   style={{ animationDelay: `${0.3 + index * 0.1}s` }}
                 >
                   <CheckCircle className="w-5 h-5 text-success shrink-0" />
-                  <span className="text-foreground font-medium">{item}</span>
+                  <span className="text-foreground font-medium text-base">{item}</span>
                 </div>
               ))}
             </div>
@@ -77,8 +77,8 @@ export const Hero = () => {
                     <CheckCircle className="w-6 h-6 text-success" />
                   </div>
                   <div>
-                    <p className="font-semibold text-foreground">+15 000</p>
-                    <p className="text-sm text-muted-foreground">Clients satisfaits</p>
+                    <p className="font-semibold text-foreground text-lg">+15 000</p>
+                    <p className="text-base text-muted-foreground">Clients satisfaits</p>
                   </div>
                 </div>
               </div>

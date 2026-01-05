@@ -9,14 +9,14 @@ export const PartnershipBanner = () => {
       <div className="section-container relative z-10">
         <div className="text-center animate-slide-up">
           <div className="inline-flex items-center gap-2 bg-primary-foreground/20 rounded-full px-4 py-1 mb-4 backdrop-blur-sm">
-            <span className="text-sm font-medium">Historique</span>
+            <span className="text-base font-medium">Historique</span>
           </div>
           
-          <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
+          <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
             Pour la première fois dans l'histoire, un courtier est partenaire et soutient les actions
           </h2>
           
-          <p className="text-primary-foreground/90 mb-6 max-w-3xl mx-auto">
+          <p className="text-lg text-primary-foreground/90 mb-6 max-w-3xl mx-auto">
             L'Alliance Nationale pour l'Optimisation des Mutuelles et Assurances Santé participe aux actions de la Fédération Hospitalière de France et de l'ANFIIDE
           </p>
           
@@ -30,7 +30,7 @@ export const PartnershipBanner = () => {
             </div>
           </div>
           
-          <p className="mt-6 text-sm text-primary-foreground/80 max-w-2xl mx-auto">
+          <p className="mt-6 text-base text-primary-foreground/80 max-w-2xl mx-auto">
             <strong>ANFIIDE</strong> — Association reconnue d'utilité publique depuis 1932 pour son rôle dans le développement de la profession infirmière. 
             <br />1924-2025 : Plus de 100 ans au service des infirmier(e)s !
           </p>
