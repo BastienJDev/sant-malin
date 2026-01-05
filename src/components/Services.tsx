@@ -64,13 +64,13 @@ export const Services = () => {
       <div className="section-container">
         <div className="text-center mb-16 animate-slide-up">
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary rounded-full px-4 py-2 mb-4">
-            <Shield className="w-4 h-4" />
-            <span className="text-sm font-semibold">Nos Services</span>
+            <Shield className="w-5 h-5" />
+            <span className="text-base font-semibold">Nos Services</span>
           </div>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
             Solutions d'assurance complètes
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Découvrez nos différentes offres adaptées à chaque situation et profil
           </p>
         </div>
@@ -87,26 +87,26 @@ export const Services = () => {
                 <service.icon className="w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
               </div>
               
-              <h3 className="font-display text-xl font-bold text-foreground mb-2">
+              <h3 className="font-display text-2xl font-bold text-foreground mb-2">
                 {service.title}
               </h3>
-              <p className="text-sm text-primary font-medium mb-3">
+              <p className="text-base text-primary font-medium mb-3">
                 {service.subtitle}
               </p>
-              <p className="text-muted-foreground text-sm mb-4">
+              <p className="text-muted-foreground text-base mb-4">
                 {service.description}
               </p>
               
               <ul className="space-y-2 mb-4">
                 {service.features.map((feature) => (
-                  <li key={feature} className="flex items-center gap-2 text-sm text-foreground">
+                  <li key={feature} className="flex items-center gap-2 text-base text-foreground">
                     <CheckCircle className="w-4 h-4 text-success shrink-0" />
                     {feature}
                   </li>
                 ))}
               </ul>
               
-              <p className="text-xs text-primary font-medium italic mb-4">
+              <p className="text-sm text-primary font-medium italic mb-4">
                 {service.cta}
               </p>
               

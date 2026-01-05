@@ -33,34 +33,34 @@ export const VideoSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <div className="inline-flex items-center gap-2 bg-primary/30 rounded-full px-4 py-2 mb-6">
-              <span className="text-sm font-semibold text-primary-foreground">Notre mission</span>
+              <span className="text-base font-semibold text-primary-foreground">Notre mission</span>
             </div>
             
-            <h2 className="font-display text-3xl md:text-4xl font-bold mb-6 text-background">
+            <h2 className="font-display text-4xl md:text-5xl font-bold mb-6 text-background">
               Protéger sa santé et son budget
             </h2>
             
             <div className="space-y-4 text-background/80">
-              <p className="text-lg font-medium">
+              <p className="text-xl font-medium">
                 Courtier en assurance, nous comparons, optimisons et rééquilibrons vos contrats mutuelles et assurance santé.
               </p>
               
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-primary rounded-full" />
-                  <span className="font-semibold">Prix maîtrisé</span>
+                  <span className="font-semibold text-lg">Prix maîtrisé</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-primary rounded-full" />
-                  <span className="font-semibold">Garanties utiles</span>
+                  <span className="font-semibold text-lg">Garanties utiles</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-primary rounded-full" />
-                  <span className="font-semibold">Partenaire des Hôpitaux de France</span>
+                  <span className="font-semibold text-lg">Partenaire des Hôpitaux de France</span>
                 </li>
               </ul>
               
-              <p className="text-sm opacity-80 pt-4">
+              <p className="text-base opacity-80 pt-4">
                 Notre cabinet soutient financièrement les actions de la Fédération Hospitalière de France et de l'ANFIIDE.
               </p>
             </div>
