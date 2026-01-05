@@ -1,6 +1,6 @@
 import { Play, Pause, Volume2, VolumeX } from "lucide-react";
 import { useState, useRef } from "react";
-import promoVideo from "@/assets/promo-video.mp4";
+import promoVideo from "@/assets/promo-video-text.mp4";
 
 export const VideoSection = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
