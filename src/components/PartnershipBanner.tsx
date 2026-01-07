@@ -20,8 +20,8 @@ export const PartnershipBanner = () => {
           </p>
           
           <div className="flex items-center justify-center">
-            <div className="bg-card rounded-xl p-6 shadow-lg hover:scale-105 transition-transform duration-300">
-              <img src={fondationLogo} alt="Fondation des Hôpitaux" className="h-20 md:h-28 w-auto" />
+            <div className="bg-card rounded-xl p-4 shadow-lg hover:scale-105 transition-transform duration-300">
+              <img src={fondationLogo} alt="Fondation des Hôpitaux" className="h-28 md:h-40 w-auto" />
             </div>
           </div>
           
