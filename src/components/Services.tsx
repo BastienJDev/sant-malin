@@ -110,7 +110,11 @@ export const Services = () => {
                 {service.cta}
               </p>
               
-              <Button variant="ghost" className="w-full group/btn">
+              <Button 
+                variant="ghost" 
+                className="w-full group/btn"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 En savoir plus
                 <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover/btn:translate-x-1" />
               </Button>
