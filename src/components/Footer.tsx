@@ -76,9 +76,9 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:gestion@meilleurs-mutuelles-sante.fr" className="flex items-center gap-3 text-base text-background/70 hover:text-background transition-colors">
+                <a href="mailto:gestion@controle-mutuelles.fr" className="flex items-center gap-3 text-base text-background/70 hover:text-background transition-colors">
                   <Mail className="w-5 h-5" />
-                  gestion@meilleurs-mutuelles-sante.fr
+                  gestion@controle-mutuelles.fr
                 </a>
               </li>
               <li className="flex items-center gap-3 text-base text-background/70">
