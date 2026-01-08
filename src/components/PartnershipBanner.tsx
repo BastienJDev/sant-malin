@@ -1,4 +1,6 @@
 import fondationLogo from "@/assets/logos/fondation-hopitaux-logo.png";
+import { Button } from "@/components/ui/button";
+import { Heart } from "lucide-react";
 
 export const PartnershipBanner = () => {
   return (
@@ -19,7 +21,22 @@ export const PartnershipBanner = () => {
             L'Alliance Nationale pour l'Optimisation des Mutuelles et Assurances Santé participe aux actions de la Fondation des Hôpitaux
           </p>
           
-          <div className="flex items-center justify-center">
+          <div className="flex flex-col items-center justify-center gap-6">
+            <Button 
+              asChild
+              size="lg"
+              className="bg-card text-primary hover:bg-card/90 font-semibold text-lg px-8 py-6"
+            >
+              <a 
+                href="https://www.fondationhopitaux.fr/nous-soutenir/faire-un-don-en-ligne/#:~:text=Par%20ch%C3%A8que%20bancaire%20%C3%A0%20l,par%20SMS%20au%2092%20111" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Heart className="w-5 h-5 mr-2" />
+                Faire un don à la Fondation des Hôpitaux
+              </a>
+            </Button>
+            
             <div className="bg-card rounded-xl p-6 shadow-lg hover:scale-105 transition-transform duration-300">
               <img src={fondationLogo} alt="Fondation des Hôpitaux" className="h-20 md:h-28 w-auto" />
             </div>
