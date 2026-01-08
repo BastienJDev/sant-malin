@@ -38,7 +38,7 @@ export const PartnersLogos = () => {
               <img 
                 src={partner.logo} 
                 alt={partner.name} 
-                className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                className="h-20 md:h-24 w-auto object-contain transition-all duration-300"
               />
             </a>
           ))}
