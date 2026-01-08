@@ -26,9 +26,9 @@ export const Header = () => {
               <Phone className="w-4 h-4" />
               <span>03.76.33.03.82</span>
             </a>
-            <a href="mailto:gestion@meilleurs-mutuelles-sante.fr" className="hidden sm:flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <a href="mailto:gestion@controle-mutuelles.fr" className="hidden sm:flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Mail className="w-4 h-4" />
-              <span>gestion@meilleurs-mutuelles-sante.fr</span>
+              <span>gestion@controle-mutuelles.fr</span>
             </a>
           </div>
           <div className="text-xs opacity-90">
