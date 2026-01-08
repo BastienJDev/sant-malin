@@ -13,7 +13,7 @@ export const Hero = () => {
           alt="Assurance protection" 
           className="w-full h-full object-cover scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/90 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/60 to-background/80" />
       </div>
       
       <div className="section-container relative z-10">
