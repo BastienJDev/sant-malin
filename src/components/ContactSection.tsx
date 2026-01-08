@@ -63,13 +63,13 @@ export const ContactSection = () => {
                   </div>
                 </a>
                 
-                <a href="mailto:gestion@meilleurs-mutuelles-sante.fr" className="flex items-center gap-4 hover:opacity-80 transition-opacity">
+                <a href="mailto:gestion@controle-mutuelles.fr" className="flex items-center gap-4 hover:opacity-80 transition-opacity">
                   <div className="w-12 h-12 bg-primary-foreground/20 rounded-full flex items-center justify-center">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
                     <p className="text-base opacity-80">Email général</p>
-                    <p className="font-semibold text-lg">gestion@meilleurs-mutuelles-sante.fr</p>
+                    <p className="font-semibold text-lg">gestion@controle-mutuelles.fr</p>
                   </div>
                 </a>
                 
@@ -86,8 +86,8 @@ export const ContactSection = () => {
               
               <div className="mt-8 pt-6 border-t border-primary-foreground/20">
                 <p className="text-base opacity-80 mb-2">Autres contacts :</p>
-                <p className="text-base">conformité-dossier@meilleurs-mutuelles-sante.fr</p>
-                <p className="text-base">conformité1-dossier@meilleurs-mutuelles-sante.fr</p>
+                <p className="text-base">service@controle-mutuelles.fr</p>
+                <p className="text-base">service1@controle-mutuelles.fr</p>
               </div>
             </div>
             
