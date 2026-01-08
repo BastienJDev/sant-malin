@@ -1,6 +1,7 @@
 import { Shield, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
+import heroBackground from "@/assets/hero-background.png";
 
 export const Hero = () => {
   return (
@@ -8,11 +9,11 @@ export const Hero = () => {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img 
-          src={heroImage} 
-          alt="Famille heureuse" 
-          className="w-full h-full object-cover opacity-20"
+          src={heroBackground} 
+          alt="Assurance protection" 
+          className="w-full h-full object-cover blur-sm scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/90 to-background" />
       </div>
       
       <div className="section-container relative z-10">
