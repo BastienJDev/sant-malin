@@ -37,8 +37,8 @@ export const PartnershipBanner = () => {
               </a>
             </Button>
             
-            <div className="bg-card rounded-xl p-6 shadow-lg hover:scale-105 transition-transform duration-300">
-              <img src={fondationLogo} alt="Fondation des Hôpitaux" className="h-20 md:h-28 w-auto" />
+            <div className="bg-card rounded-xl p-8 shadow-lg hover:scale-105 transition-transform duration-300">
+              <img src={fondationLogo} alt="Fondation des Hôpitaux" className="h-32 md:h-44 w-auto" />
             </div>
           </div>
           
