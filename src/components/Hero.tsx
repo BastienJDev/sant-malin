@@ -1,19 +1,13 @@
 import { Shield, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
-import heroBackground from "@/assets/hero-background.png";
 
 export const Hero = () => {
   return (
-    <section id="accueil" className="relative min-h-screen pt-32 pb-16 overflow-hidden">
-      {/* Background */}
+    <section id="accueil" className="relative min-h-screen pt-32 pb-16 overflow-hidden bg-background">
+      {/* Background gradient */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBackground} 
-          alt="Assurance protection" 
-          className="w-full h-full object-cover scale-105"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/60 to-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background to-background" />
       </div>
       
       <div className="section-container relative z-10">
