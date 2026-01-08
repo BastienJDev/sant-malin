@@ -68,7 +68,7 @@ export const Services = () => {
             <span className="text-base font-semibold">Nos Services</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Solutions d'assurance complètes
+            Solutions d'assurance et mutuelle complètes
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Découvrez nos différentes offres adaptées à chaque situation et profil
