@@ -11,7 +11,7 @@ export const Hero = () => {
         <img 
           src={heroBackground} 
           alt="Assurance protection" 
-          className="w-full h-full object-cover blur-[2px] scale-105"
+          className="w-full h-full object-cover scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/90 to-background" />
       </div>
